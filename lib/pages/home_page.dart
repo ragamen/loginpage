@@ -5,6 +5,11 @@ class HomePage extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return  Container();
+    return  const Scaffold(
+      body: Padding(
+        padding: EdgeInsets.all(8.0),
+        child: Center(child: Text("Usta esta Logueado",style: TextStyle(fontSize: 16),)),
+      )
+    );
   }
 }
